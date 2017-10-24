@@ -1,0 +1,24 @@
+{
+    "name": "muyi/aliyun-dysms-php-sdk",
+    "description": "Aliyun SMS SDK for PHP",
+    "keywords": [ "aliyun", "SMS", "sdk" ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://www.aliyun.com/product/sms",
+    "authors": [
+        {
+            "name": "muyi",
+            "email": "dcmuyi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\": "lib/",
+            "Aliyun\\Test\\": "tests/"
+        }
+    }
+}
